@@ -299,7 +299,7 @@ class ChatPostMessagePayload extends AbstractPayload implements AdvancedSerializ
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function getMethod()
     {
@@ -307,7 +307,7 @@ class ChatPostMessagePayload extends AbstractPayload implements AdvancedSerializ
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function beforeSerialize(Serializer $serializer)
     {
