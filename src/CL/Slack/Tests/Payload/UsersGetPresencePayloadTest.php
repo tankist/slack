@@ -38,7 +38,7 @@ class UsersGetPresencePayloadTest extends AbstractPayloadTest
     protected function getExpectedPayloadData(PayloadInterface $payload)
     {
         return [
-            'user'  => $payload->getUserId(),
+            'user' => $payload->getUserId(),
         ];
     }
 }
